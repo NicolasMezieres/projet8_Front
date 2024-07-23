@@ -15,6 +15,40 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+* {
+  scrollbar-width: thin;
+}
+.HeaderBG {
+  background-color: #d9d9d9;
+  color: black;
+  filter: drop-shadow(2px 4px 5px #aaa);
+}
+.GrayBG {
+  background-color: #d9d9d9;
+  color: black;
+}
+.GrayBGHover:hover {
+  background-color: #333;
+  color: white;
+}
+.GrayWhiteBG {
+  background-color: #f0f0f0;
+}
+.FooterBG {
+  background-color: #d9d9d9;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 24px;
+  filter: drop-shadow(-2px -4px 5px #aaa);
+}
+.InsetButton {
+  box-shadow: inset 0 3px 4px 0 rgb(0 0 0 / 0.5);
+}
+.DropShadowButton {
+  filter: drop-shadow(0 5px 2px rgb(0 0 0 / 0.25))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.1));
+}
 
 body {
   color: rgb(var(--foreground-rgb));
